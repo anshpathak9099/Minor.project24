@@ -1,0 +1,1424 @@
+html, body {
+    margin-left: 0px;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 0; 
+    height: 100%;
+    /* background-color:black; */
+    background-image: url(background.jpg);
+    background-size: cover;
+  }
+  .nav{
+   
+    font-size: 2rem;
+    /* background-image:url(background\ \ top.jpg); */
+  }
+  .nav a{
+    color:black;
+    text-decoration: none;
+  }
+  .nav ::placeholder{
+    font-size: 14px;
+    color: black;
+  }
+  .nav button {
+    color: white;
+    background-color: #000;
+ }
+ 
+  .sideline {
+    width: 16rem;
+    height: 65rem; 
+    /* background-color: white; */
+    border: 1px solid #000;
+    /* margin-top: 5rem; */
+}
+.container {
+    display: flex;
+    padding-top:  5rem;
+}
+
+
+
+#mainpage {
+    flex: 1;
+    /* background-color:black; */
+    flex-direction: row;
+    display: flex;
+    flex-wrap:wrap-reverse;
+    /* background-image: url(background\ \ top.jpg); */
+    background-size: cover;
+    border: #000;
+    border-width: 2px;
+}
+.heading{
+    width: 60rem;
+    height:5rem;
+    flex: 0;
+
+}
+
+.box1, .box2 {
+    margin: 10px;
+    height: 20rem;
+    width: calc(25% - 20px);
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image1, .box-image2 {
+    height: 16rem;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+.box3, .box4 {
+    margin: 10px;
+    height: 20rem;
+    width: calc(25% - 20px);
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image3, .box-image4 {
+    height: 16rem;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+.box5, .box6 {
+    margin: 10px;
+    height: 20rem;
+    width: calc(25% - 20px);
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image5, .box-image6 {
+    height: 16rem;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+.box7, .box8 {
+    margin: 10px;
+    height: 20rem;
+    width: calc(25% - 20px);
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image7, .box-image8 {
+    height: 16rem;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+.box9 {
+    margin: 10px;
+    height: 20rem;
+    width: calc(25% - 20px);
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image9{
+    height: 16rem;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+#electronics {
+    flex: 1;
+    /* background-color:black; */
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(electronic\ backcgorund.jpg);
+    background-size: cover;
+    border: #000;
+    border-width: 2px;
+    overflow: auto; 
+    height: 320px; 
+    
+  }
+.box11, .box12 {
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image11, .box-image12{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+.box13, .box14{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image13, .box-image14{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+
+.box15, .box16{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image15, .box-image16{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+
+.box17, .box18{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image17, .box-image18{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+
+.box19, .box20{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image17, .box-image18{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+
+
+.box21, .box22{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image21, .box-image22{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+.box23, .box24{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image21, .box-image22{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+.box25{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image25{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+#car {
+    flex: 1;
+    /* background-color:black; */
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(car\ background.jpg);
+    background-size: contain;
+    border: #000;
+    border-width: 2px;
+    overflow: auto; 
+    height: 320px; 
+    
+  }
+.box26, .box27{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image26, .box-image27{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+.box28, .box29{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image28, .box-image29{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+
+.box30, .box31{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image30, .box-image31{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+
+.box32, .box33{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image32, .box-image33{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+
+.box34, .box35{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image34, .box-image35{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+
+
+.box36, .box37{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image36, .box-image37{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+.box38,.box39{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image38,.box-image39{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+ .box40{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image40{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+} 
+
+
+
+#bike {
+    flex: 1;
+    /* background-color:black; */
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(bike\ background.jpg);
+    background-size:contain;
+    border: #000;
+    border-width: 2px;
+    overflow: auto; 
+    height: 320px; 
+    
+  }
+.box41, .box42{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image41, .box-image42{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+.box43, .box44{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image43, .box-image44{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+
+.box45, .box46{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image45, .box-image46{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+
+.box47, .box48{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image47, .box-image48{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+
+.box49, .box50{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image49, .box-image50{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+
+
+.box51, .box52{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image51, .box-image52{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+.box53,.box54{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image53,.box-image54{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+ .box55{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image55{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+} 
+
+
+
+
+#furniture {
+    flex: 1;
+    /* background-color:black; */
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(furniture\ background.jpg);
+    background-size: contain;
+    border: #000;
+    border-width: 2px;
+    overflow: auto; 
+    height: 320px; 
+    
+  }
+.box56, .box57{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image56, .box-image57{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+.box58, .box59{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image58, .box-image59{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+
+.box60, .box61{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image60, .box-image61{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+
+.box62, .box63{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image62, .box-image63{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+
+.box64, .box65{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image64, .box-image65{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+
+
+.box66, .box67{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image66, .box-image67{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+
+.box68,.box69{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image68,.box-image69{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+ .box70{
+    margin: 10px;
+    height: 20rem;
+    width: 12rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.bottom-box {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box-image70{
+    height:15rem;
+    width: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-item:hover {
+    background-color: whitesmoke;
+}
+
+.box-item:hover .box-image1, .box-item:hover .box-image2 {
+    transform: scale(1.1);
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
